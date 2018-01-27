@@ -157,7 +157,45 @@ td {
         font-size: 100%;
         line-height: 160%;
     }
-    th,
-    table,
-    td {}
 }
+
+@media screen and (max-width: 900px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 80%;
+        padding: 2px 5px;
+        
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn {
+        font-size: 80%;
+        padding: 2px 5px;
+        
+    }
+    p {
+        font-size: 100%;
+        line-height: 160%;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
