@@ -17,16 +17,18 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+
 }
 
 .intro {
     height: 100%;
     width: 100%;
     margin: auto;
-    background: url(https://static.pexels.com/photos/401107/pexels-photo-401107.jpeg) no-repeat 50% 50%;
+    background: url(https://static.pexels.com/photos/290660/pexels-photo-290660.jpeg) no-repeat 50% 50%;
     display: table;
     top: 0;
-    background-size: cover;    
+    background-size: cover;
+
 }
 
 
@@ -74,28 +76,53 @@ p {
 
 .container h1 {
     border-radius: 5px;
-    color: coral;
     font-size: 60px;
     padding: 15px;
-    background-color: #fff;
+    text-shadow: 80%;
+    margin: auto;
 }
 
 
 h2 {
-    color: #fff;
+    color: coral;
     font-size: 24px;
     text-transform: uppercase;
-    text-align: left
+    text-align: center;
+}
+
+#date {
+    color: coral;
+    background-color: aliceblue;
+    border: solid #fff 2px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 20%;
+    position: relative;
+    left: 40%;
+
+}
+
+#time {
+    color: coral;
+    background-color: aliceblue;
+    border: solid #fff 2px;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 10%;
+    padding: 2px 4px;
+    width: auto;
+    margin: auto;
 }
 
 h3 {
-    color: rgb(0, 255, 245);
+    width: auto;
     font-size: 20px;
     text-transform: capitalize;
-    text-align: left;
-    font-weight: 100;
+    text-align: center;
+    font-weight: 800;
     line-height: 2.8;
     letter-spacing: 0.8px;
+    margin: auto;
 }
 
 th {
@@ -103,15 +130,19 @@ th {
 }
 
 table {
-    text-align: left;
+    text-align: center;
     margin: 0px auto;
+    padding: 10%;
 }
 
 td {
+    border-radius: 5px;
+    background-color: aliceblue;
     color: coral;
-    border: none;
-    width: 50;
+    width: auto;
     font-weight: 800;
+    text-align: center;
+
 }
 
 
@@ -146,7 +177,7 @@ td {
     .btn {
         font-size: 80%;
         padding: 7px 15px;
-        
+
     }
     p {
         font-size: 100%;
@@ -166,7 +197,7 @@ td {
     .btn {
         font-size: 80%;
         padding: 7px 15px;
-        
+
     }
     p {
         font-size: 100%;
@@ -186,7 +217,7 @@ td {
     .btn {
         font-size: 80%;
         padding: 7px 15px;
-        
+
     }
     p {
         font-size: 100%;
@@ -198,4 +229,3 @@ td {
         line-height: 160%;
     }
 }
-
